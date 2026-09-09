@@ -1,0 +1,6 @@
+analysis,metric,estimate,p_value
+Platform incentive,Average treatment effect on posting,0.06298,0.0064
+Platform incentive,Treatment by first-time-user interaction,0.108949,0.0182
+Platform incentive,Estimated treatment effect for first-time users,0.115145,
+Education program,Post-program mathematics effect,0.17695,4.11e-13
+Education program,Post-program language effect,0.12726,7.53e-07

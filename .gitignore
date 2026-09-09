@@ -1,0 +1,7 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+data/*.csv
+!data/README.md
+outputs/
