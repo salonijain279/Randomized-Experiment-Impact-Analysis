@@ -1,8 +1,8 @@
 # Randomized Experiment Impact Analysis
 
-I used two randomized evaluations to answer a common analytics question: **did an intervention change behavior, and for whom did it work best?**
+Two randomized evaluations answer a common analytics question: **did an intervention change behavior, and for whom did it work best?**
 
-The first analysis measures whether a digital recognition incentive increased user participation. The second evaluates whether an education support program improved standardized mathematics and language scores. Together, they show how I move from treatment-control validation to effect estimation, subgroup analysis, and assumption checks.
+The first analysis measures whether a digital recognition incentive increased user participation. The second evaluates whether an education support program improved standardized mathematics and language scores. Together, they show a move from treatment-control validation to effect estimation, subgroup analysis, and assumption checks.
 
 ## Key findings
 
@@ -21,7 +21,7 @@ The first analysis measures whether a digital recognition incentive increased us
 
 ## Analytical approach
 
-I used:
+Methods:
 
 - Welch two-sample tests to evaluate pre-treatment balance;
 - linear probability models to estimate average treatment effects;
@@ -71,4 +71,4 @@ Rscript tests/test_analysis.R
 
 ## Collaboration
 
-The original analyses were completed with **Shivanshu Dagur**. I maintain this repository and rewrote the analytical workflow for clear, reusable presentation.
+The original analyses were completed with **Shivanshu Dagur**; this repository is maintained by Saloni Jain, who rewrote the analytical workflow for clear, reusable presentation.
