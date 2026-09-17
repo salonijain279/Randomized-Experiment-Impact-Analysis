@@ -21,6 +21,14 @@ The first analysis measures whether a digital recognition incentive increased us
 
 ## Analytical approach
 
+```mermaid
+flowchart LR
+    A[Randomized treatment/control] --> B[Welch tests: pre-treatment balance]
+    B --> C[Linear probability model: average effect]
+    C --> D[Interaction model: heterogeneous effects]
+    D --> E[SUTVA & spillover checks]
+```
+
 Methods:
 
 - Welch two-sample tests to evaluate pre-treatment balance;
