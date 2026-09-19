@@ -37,7 +37,7 @@ Methods:
 - pre/post validation for the education intervention; and
 - SUTVA and spillover checks to define where the causal interpretation could weaken.
 
-The code is organized as reusable functions rather than as an assignment transcript. It validates the required fields, returns tidy model summaries, and keeps the two experiments analytically separate.
+The code is organized as reusable functions. It validates the required fields, returns tidy model summaries, and keeps the two experiments analytically separate.
 
 ## Repository structure
 
